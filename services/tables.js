@@ -45,4 +45,4 @@ CREATE TABLE IF NOT EXISTS
         )`;
 const tables = [userTable];
 
-module.exports = { tables };
+module.exports = { userTable };

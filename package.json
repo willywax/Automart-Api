@@ -10,7 +10,7 @@
     "drop": "node ./services/createTables.js",
     "schema": "node ./services/createSchema.js",
     "coverage": "nyc --reporter=lcov  npm test",
-    "configure-admin": "node ./main_test/main.js",
+    "configure-admin": "node ./maintest/main.js",
     "deploy": "npm run drop && node index.js",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "lint": "eslint '**/*.js'",
